@@ -1,0 +1,471 @@
+<!DOCTYPE html><html xmlns:wb="http://open.weibo.com/wb"><head><script src="//hm.baidu.com/hm.js?f8f00157b9e7416724a33f0c8e9f6b9d"></script>
+<title>夕阳石韵 - 摄影大赛2017 - 国家地理中文网</title>
+<meta charset="utf-8">
+<meta name="keywords" content="夕阳,石韵">
+<meta name="description" content="2017年5月1日，一年一度的摄影视觉盛宴再次拉开帷幕。由美国国家地理学会国际授权《华夏地理》主办的2016美国《国家地理》全球摄影大赛中国赛区正式启动。">
+<link rel="shortcut icon" href="http://www.nationalgeographic.com.cn/favicon.ico">
+<script language="javascript" type="text/javascript" src="/statics/js/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="/statics/js/html5_js.js"></script>
+<script language="javascript" type="text/javascript" src="/statics/js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="/statics/js/index.js"></script>
+<script language="javascript" type="text/javascript" src="/statics/js/_jquery.js"></script>
+<script language="javascript" type="text/javascript" src="/statics/js/sea.js"></script>
+<script type="text/javascript">
+var URL=window.location.href;
+var sUrl=URL.split("//www.");
+if(!IsPC()){
+		window.location.href="http://"+"m."+sUrl[1];
+};
+</script>
+<script type="text/javascript">
+   M=$.noConflict(true);
+</script>
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=3880298726" type="text/javascript" charset="utf-8"></script><script charset="UTF-8" src="https://api.weibo.com/2/oauth2/query?source=3880298726&amp;callback=STK_4071510294130883"></script>
+<style></style><script src="http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=419525"></script><script charset="UTF-8" src="http://js.t.sinajs.cn/open/api/js/api/bundle.js?version=20150130.02"></script><script charset="UTF-8" src="http://js.t.sinajs.cn/open/api/js/widget/iframeWidget/iframeWidget.js?version=20140327"></script></head>
+<body><div id="BAIDU_DUP_fp_wrapper" style="position: absolute; left: -1px; bottom: -1px; z-index: 0; width: 0px; height: 0px; overflow-x: hidden; overflow-y: hidden; visibility: hidden; display: none; "><iframe id="BAIDU_DUP_fp_iframe" src="https://pos.baidu.com/wh/o.htm?ltr=" style="width: 0px; height: 0px; visibility: hidden; display: none; "></iframe></div><iframe style="display: none; " id="sina_anywhere_iframe"></iframe><link href="http://v3.jiathis.com/code/css/jiathis_share.css" rel="stylesheet" type="text/css"><iframe style="position: absolute; display: none; opacity: 0; " frameborder="0"></iframe><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; top: 50%; left: 50%; overflow-x: auto; overflow-y: auto; "></div><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; overflow-x: auto; overflow-y: auto; "></div><iframe style="display: none; " frameborder="0" src="http://v3.jiathis.com/code/jiathis_utility.html"></iframe>
+ <div id="webLoginBg" class="web_login_bg"></div>
+<script type="text/javascript">
+function loginCheck(form)
+{
+        var username = form.username;
+        var password = form.password;
+        var code = form.code; //验证码
+        if(username.value == ''){alert("请输入用户名");username.focus();return false;}
+        if(password.value == ''){alert("请输入密码");password.focus();return false;}
+        if(code.value == ''){alert("验证码为空");code.focus();return false;}  //验证码
+        return true;
+}
+ 
+function loginSubmit(login)
+{        
+        var username = login.elements['username'];
+        var password = login.elements['password'];
+        var code = login.elements['code'];
+        var cookietime = login.elements['cookietime'];
+        var dosubmit = login.elements['dosubmit'];
+    	if(!loginCheck(login)) return false;
+        $.post("http://www.nationalgeographic.com.cn/index.php?m=member&c=ajax&a=login&forward=%2Findex.php%3Fm%3Dcontent%26c%3Dindex%26a%3Dshow%26catid%3D596%26id%3D4752", 'username='+username.value+'&password='+password.value+'&code='+code.value+'&cookietime='+cookietime.value+'&dosubmit='+dosubmit.value, function(data){
+                if(data.success == 1){
+					$("#webLoginBox").hide();
+					$("#webLoginBg").hide();
+					var oIframe = document.getElementById('comment_iframe');
+					if(oIframe){
+						window.location.reload();
+						//alert(1111);
+						//window.location.href=window.location.href+"#comments";
+					}else{
+					    window.location.reload();
+					};
+                }
+                else if(data.success == -1){ alert('用户不存在');username.value = '';}
+                else if(data.success == -2){ alert('密码错误');}
+                else if(data.success == -3){ alert('登录失败');}
+                else if(data.success == -4){ alert('错误次数过多，请稍后再试');}
+                else if(data.success == 2){ alert('帐号已锁定');}
+                else if(data.success == -5){ alert('验证码错误');}//验证码
+                password.value = '';
+                code.value='';//验证码
+        }, "json");
+        return false;
+}
+
+</script>
+
+<div id="webLoginBox" class="web_login_box">
+<form action="http://www.nationalgeographic.com.cn/index.php?m=member&amp;c=ajax&amp;a=login&amp;forward=%2Findex.php%3Fm%3Dcontent%26c%3Dindex%26a%3Dshow%26catid%3D596%26id%3D4752" method="post" name="login" onsubmit="return loginSubmit(this, 0);">
+    <div class="web_login_logo"><img src="/statics/images/dili/login_img/web_login_logo.png" alt="logo" data-bd-imgshare-binded="1"><span id="loginClose" class="login_close">╳</span></div>
+    <div class="bbs_reg"></div>
+    <div class="web_login_bot">
+        <ul id="webLoginList" class="web_login_list">
+            <li id="listInput1" class="list_input"><input type="text" name="username"><span style="display: block; ">邮箱/用户名</span><b></b></li>
+            <li id="listInput2" class="list_input list_input2"><input type="password" name="password"><span style="display: block; ">密码</span><b></b></li>
+            <li id="listInput3" class="list_input list_input3"><input type="text" id="code" name="code"><span style="display: block; ">验证码</span><b></b></li>
+            <li class="list_yzm"><img id="code_img" onclick="this.src=this.src+&quot;&amp;&quot;+Math.random()" src="http://www.nationalgeographic.com.cn/api.php?op=checkcode&amp;code_len=4&amp;font_size=14&amp;width=84&amp;height=24" alt="code" data-bd-imgshare-binded="1"></li>
+            <li class="list_pass"><span><input type="checkbox">记住我</span><a href="http://www.nationalgeographic.com.cn/index.php?m=member&amp;c=index&amp;a=public_forget_password&amp;siteid=1">忘记密码</a></li>
+            <li class="list_btn"><input type="submit" name="dosubmit" value="登录"><span>没有账号?<a href="http://www.nationalgeographic.com.cn/index.php?m=member&amp;c=index&amp;a=register">立即注册</a></span></li>
+        	<li style="display:none;"><input type="hidden" name="cookietime" value="86400"></li>
+        </ul>
+        <div class="web_login_ewm">
+        <p>扫一扫，手机浏览国家地理中文网</p>
+        <img src="/statics/images/dili/login_img/web_login_ewm.png" alt="erweima" data-bd-imgshare-binded="1">
+        </div>
+        <div class="web_login_icon">
+            <p class="clearfix">
+                <span>其他登录方式：</span>
+                <span><a href="http://www.nationalgeographic.com.cn/index.php?m=member&amp;c=index&amp;a=public_sina_login"><img src="/statics/images/dili/dasai2015/dasai_webapp/weibo_icon.png" alt="weibopng" data-bd-imgshare-binded="1"></a></span>
+                <span><a href="http://www.nationalgeographic.com.cn/index.php?m=member&amp;c=index&amp;a=public_qq_loginnew"><img src="/statics/images/dili/dasai2015/dasai_webapp/qq_icon.png" alt="qqpng" data-bd-imgshare-binded="1"></a></span>
+                <span><a href="https://open.weixin.qq.com/connect/qrconnect?appid=wxdbfc6e4b59a26448&amp;redirect_uri=http%3A%2F%2Fwww.nationalgeographic.com.cn%2Fapi.php%3Fop%3Dwechat&amp;response_type=code&amp;scope=snsapi_login,snsapi_userinfo&amp;state=eavHiaiceqxibJxCfHe#wechat_redirect"><img src="/statics/images/dili/dasai2015/dasai_webapp/weixin_icon.png" alt="weixinpng" data-bd-imgshare-binded="1"></a></span>
+            </p>  
+        </div>
+        
+    </div>
+    </form>
+</div>   <div class="page">
+       <header class="head">
+
+          <div class="log-div">
+             <div class="log"><a href="http://www.nationalgeographic.com.cn/"><img src="/statics/images/dili/logo.png" width="153" height="53" alt="logo" data-bd-imgshare-binded="1"></a></div>
+             <div class="reseach">
+             		<form action="http://www.nationalgeographic.com.cn/index.php" method="get" target="_blank" id="subform">
+                    <div><input type="hidden" name="m" value="search">
+                    <input type="hidden" name="c" value="index">
+                    <input type="hidden" name="a" value="init">
+                    <input type="hidden" name="typeid" value="1" id="typeid">
+                    <input type="hidden" name="siteid" value="1" id="siteid"></div>
+                    <span class="reseach-log" style="display: block; "><a href="#" onclick="document.getElementById('subform').submit();return false"><img alt="searchlog" src="/statics/images/dili/reseach-log.png" data-bd-imgshare-binded="1"></a></span>
+                    <input type="text" class="gSearch_text" name="q" id="q" value="搜索" placeholder="搜索" onblur="if (this.value ==''){this.value='搜索'}" onfocus="if (this.value =='搜索'){this.value =''}">
+                    </form>  
+             </div>
+             <div style="float: right;">
+             <img src="/statics/images/dili/erweima.png" alt="erweima" id="erweima" style="display: none;position:absolute;top:0px;border-radius: 2px;" data-bd-imgshare-binded="1">
+             </div>
+             <div style="border-radius: 2px;float: right;line-height: 24px;margin: 19px 4px;">
+			    <a href="http://weibo.com/geochannel" target="_blank" style="padding-right:2px;">
+			    <img src="/statics/images/dili/weiboout.png" alt="weibo" onmouseover="this.src='/statics/images/dili/weiboon.png'" onmouseout="this.src='/statics/images/dili/weiboout.png'" data-bd-imgshare-binded="1">
+			    </a>
+			    <img src="/statics/images/dili/weixinout.png" alt="weixin" onmouseover="this.src='/statics/images/dili/weixinon.png';javascript:$('#erweima').show();" onmouseout="this.src='/statics/images/dili/weixinout.png';javascript:$('#erweima').hide();" data-bd-imgshare-binded="1">
+	         	<a href="http://www.nationalgeographic.com.cn/index.php?m=content&amp;c=feed" target="_blank" style="padding-right:2px;padding-left: 2px;">
+			    <img src="/statics/images/dili/RSS2.png" alt="RSS" width="26" height="25" onmouseover="this.src='/statics/images/dili/RSS1.png'" onmouseout="this.src='/statics/images/dili/RSS2.png'" data-bd-imgshare-binded="1">
+			    </a>
+	         </div>
+         </div>
+         <hr class="line">  
+         		 <nav class="Nav top">
+          <ul>
+            <li class="first-li "><a href="http://www.nationalgeographic.com.cn/" target="_blank">首页</a></li>
+            <li class="second-li NaVLi">
+                <a href="http://www.nationalgeographic.com.cn/video/" target="_blank"><dd>视 频</dd></a>
+                 <div class="Front-box video">
+                    <section class="left-info">
+                      <dl class="video-left-dd bottom-line">
+                                                	  	                          <a href="/video/selected/" style="color:#000000;"><dd>精选</dd></a>
+	                      	                          <a href="/video/animals/" style="color:#000000;"><dd>动物</dd></a>
+	                      	                          <a href="/video/travel/" style="color:#000000;"><dd>旅行</dd></a>
+	                      	                          <a href="/video/space/" style="color:#000000;"><dd>太空</dd></a>
+	                      	                          <a href="/video/sciences/" style="color:#000000;"><dd>科学</dd></a>
+	                      	                          <a href="/video/environment/" style="color:#000000;"><dd>自然环境</dd></a>
+	                      	                          <a href="/video/adventure/" style="color:#000000;"><dd>探险</dd></a>
+	                      	                                            </dl>
+                   </section>
+                  <aside class="right-info">
+                          <div class="top-div">视频</div>
+                          <div class="bottom-div"><a href="http://www.nationalgeographic.com.cn/video/"><img src="http://image.nationalgeographic.com.cn/2014/0710/20140710022846544.png" width="199" height="150" alt="video" data-bd-imgshare-binded="1"></a></div>
+                  </aside>
+                </div> 
+            </li>
+            <li class="third-li NaVLi">
+                <a href="http://www.nationalgeographic.com.cn/photography/" target="_blank"><dd>摄 影</dd></a>
+                 <div class="Front-box video">
+                    <section class="left-info">
+                      <dl class="video-left-dd bottom-line">
+                         	                      	  	                          <a href="http://www.nationalgeographic.com.cn/html/honor/" style="color:#000000;"><dd>荣耀9美得有声有色</dd></a>
+	                          	                          <a href="/photography/picture_story/" style="color:#000000;"><dd>图片故事</dd></a>
+	                          	                          <a href="/photography/photo_of_the_day/" style="color:#000000;"><dd>每日一图</dd></a>
+	                          	                          <a href="/photography/photo_tips/" style="color:#000000;"><dd>摄影技巧</dd></a>
+	                          	                          <a href="/photography/photocontest/" style="color:#000000;"><dd>摄影大赛</dd></a>
+	                                                	                        </dl>
+                   </section>
+                  <aside class="right-info">
+                      <div class="top-div">摄影</div>
+                      <div class="bottom-div"><a href="http://www.nationalgeographic.com.cn/photography/"><img src="http://image.nationalgeographic.com.cn/2014/0710/20140710010928470.jpg" width="199" height="150" alt="photographic" data-bd-imgshare-binded="1"></a></div>
+                  </aside>
+                </div> 
+            </li>
+			<li class="children"> <a class="nav_btn" href="http://www.nationalgeographic.com.cn/culture/" target="_blank">人 文</a> </li>
+            <li class="four-li  NaVLi">
+               <a href="http://www.nationalgeographic.com.cn/animals/" target="_blank"><dd>动 物</dd></a>
+               <div class="Front-box animals">
+                 <section class="left-info">
+                   <dl class="video-left-dd bottom-line">
+                                            	                            <a href="/animals/facts/" style="color:#000000;"><dd>知识速递</dd></a>
+                                                    <a href="/animals/protection/" style="color:#000000;"><dd>动物保护</dd></a>
+                                                    <a href="/animals/photo/" style="color:#000000;"><dd>影像</dd></a>
+                                                                      <a href="http://www.nationalgeographic.com.cn/video/animals/" style="color:#000000;"><dd>视频</dd></a>
+                   </dl>
+                </section>
+                <aside class="right-info">
+                   <div class="top-div">动物</div>
+                   <div class="bottom-div"><a href="http://www.nationalgeographic.com.cn/animals/"><img src="http://image.nationalgeographic.com.cn/2014/0710/20140710012154160.jpg" width="199" height="150" alt="animals" data-bd-imgshare-binded="1"></a></div>
+                </aside>
+            	</div>
+            </li>
+            <li class="children"><a href="http://www.nationalgeographic.com.cn/environment/" target="_blank"><dd>环境保护</dd></a></li>
+            <li class="six-li  NaVLi">
+               <a href="http://www.nationalgeographic.com.cn/travel/" target="_blank"><dd>旅 行</dd></a>
+                  <div class="Front-box environment">
+                      <section class="left-info" style="width: 114px;">
+                         <dl class="video-left-dd bottom-line">
+                            		                      	  		                          <a href="/travel/destinations/" style="color:#000000;"><dd>目的地</dd></a>
+		                          		                          <a href="/travel/photo_galleries/" style="color:#000000;"><dd>影像</dd></a>
+		                          		                          <a href="/travel/adventure/" style="color:#000000;"><dd>户外探险</dd></a>
+		                          		                                             </dl>
+                     </section>
+                     <aside class="right-info">
+                              <div class="top-div">旅行</div>
+                              <div class="bottom-div"><a href="http://www.nationalgeographic.com.cn/travel/"><img src="http://image.nationalgeographic.com.cn/2014/0710/20140710012231477.jpg" width="199" height="150" alt="travel" data-bd-imgshare-binded="1"></a></div>
+                    </aside>
+                </div>
+            </li> 
+			<li class="channel"><a href="http://www.nationalgeographic.com.cn/science/" target="_blank" class="nav_btn">科 技</a></li>
+            <li class="jijin-li"><a href="http://www.nationalgeographic.com.cn/fund/" target="_blank" class="nav_btn">资 助</a></li>
+			<li class="channel" style="width:88px;"><a href="http://www.natgeo.com.cn/" target="_blank" class="nav_btn">频 道</a></li>
+          </ul>
+</nav>         <nav class="bottom" style="">
+         	<ul>
+         		<li class="first-li"><a href="http://www.nationalgeographic.com.cn/photography/photocontest/2017" target="_blank" style="color: #f7c700;">摄影大赛2017</a></li>
+<li class="second-li"><a href="http://www.nationalgeographic.com.cn/html/honor/" target="_blank" style="color: #f7c700;">荣耀9美得有声有色</a></li>
+<li><a href="http://www.nationalgeographic.com.cn/news" target="_blank" style="color: #aaa;">每日新闻</a></li>
+<li class="four-li"><a href="http://www.nationalgeographic.com.cn/magazine">杂志</a></li>
+<li><a href="http://www.nationalgeographic.com.cn/events">活动</a></li>
+<li><a href="http://www.cengage.com.cn" target="_blank">教育</a></li>
+<li><a href="http://www.ngkidschina.com/" target="_blank">儿童</a> </li>
+<li><a href="http://www.nationalgeographic.com.cn/subscribe/" target="_blank" style="color: #d5af1c;">订阅</a></li>
+<li><a href="http://www.nationalgeographic.com.cn/html/app/" target="_blank">APP</a></li>          	</ul>
+         </nav>
+      </header><link href="/statics/css/SecondPublic.css" rel="stylesheet" type="text/css">
+<link href="/statics/css/EverydayPic.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/statics/js/html5_js.js"></script>
+<script type="text/javascript" src="/statics/js/SecondPublic.js"></script>
+<script type="text/javascript" src="/statics/js/jquery.sgallery.js"></script>
+				<div class="main photo-channel" style="display:none;">
+				<div id="Article">
+				    <div class="list-pic">
+				        <a href="javascript:;" onclick="showpic('pre')" class="pre-bnt"><span></span></a>
+						<div class="cont" style="position:relative">
+							<ul class="cont picbig" id="pictureurls" style="position: absolute; left: 0px; width: 0px; ">
+														 <li class="on"><div class="img-wrap"><a href="javascript:;" hidefocus="true"><img src="http://image.nationalgeographic.com.cn/2017/1011/20171011035211914.jpg" alt="夕阳石韵" rel="http://image.nationalgeographic.com.cn/2017/1011/20171011035211914.jpg" data-bd-imgshare-binded="1"></a></div></li>
+														</ul>
+						</div>
+				        <a href="javascript:;" onclick="showpic('next')" class="next-bnt"><span></span></a>
+				    </div>
+				  </div>
+				</div>
+				<div id="load_pic" style="display:none;" rel="/statics/images/msg_img/loading_d.gif"><img src="undefined" data-bd-imgshare-binded="1"></div>
+
+<article class="content"> 
+          <header class="content-head">
+              <img src="/statics/images/dili/ContentPage-head-log.png" alt="ContentPage-head" data-bd-imgshare-binded="1">
+              <ul>
+                <li><a href="http://www.nationalgeographic.com.cn/" target="_blank">首页</a></li>
+                <li class="arrow"><img src="/statics/images/dili/ContentPage-arrow.png" alt="arrow" data-bd-imgshare-binded="1"></li>
+                <li><a href="/photography/">摄影</a></li>
+				<li class="arrow"><img src="/statics/images/dili/ContentPage-arrow.png" alt="arrow" data-bd-imgshare-binded="1"></li>
+                <li><a href="/photography/photocontest/">摄影大赛</a></li>
+                                <li class="arrow"><img src="/statics/images/dili/ContentPage-arrow.png" alt="arrow" data-bd-imgshare-binded="1"></li>
+												<li><a href="/photography/photocontest/2017">2017</a></li>								<li class="arrow"><img src="/statics/images/dili/ContentPage-arrow.png" alt="arrow" data-bd-imgshare-binded="1"></li>
+				<li><a href="http://www.nationalgeographic.com.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=593">入围作品</a></li>                  <li><img src="/statics/images/dili/ContentPage-arrow.png" alt="arrow" data-bd-imgshare-binded="1"></li>
+                <li><a href="http://www.nationalgeographic.com.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=596">  自然类</a></li>
+                <li><img src="/statics/images/dili/ContentPage-arrow.png" alt="arrow" data-bd-imgshare-binded="1"></li>
+                <li><a href="#">夕阳石韵</a></li>
+              </ul>
+          </header>
+          <section class="middlle-content">
+                 <div class="title-box"><div class="title">夕阳石韵</div><span class="time">发布时间：2017.10.11</span></div>
+          </section>
+          <section class="banner-box">
+             <div class="banner">
+				<div class="big-pic">
+					<div id="big-pic" style="margin-left:auto;margin-right:auto;width:990px"><img src="http://image.nationalgeographic.com.cn/2017/1011/20171011035211914.jpg" alt="每日一图" onload="loadpic(2)" style="width: 990px; height: 660.33px; display: block; " data-bd-imgshare-binded="1"></div>
+			    </div>
+             </div>
+             <div class="banner-bottom-bt-box">
+               <ul>                   <li><a class="next" href="javascript:alert('最后一页');" title="上一张"><img src="/statics/images/dili/EverydayPic-lastpage.png" width="104" height="29" alt="上一张" data-bd-imgshare-binded="1"></a></li>
+                   <li><a class="up" href="http://www.nationalgeographic.com.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=596&amp;id=4666" title="下一张"><img src="/statics/images/dili/EverydayPic-nextpage.png" width="104" height="30" alt="下一张" data-bd-imgshare-binded="1"></a></li>
+                   <li><a href="http://www.nationalgeographic.com.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=596"><img src="/statics/images/dili/EverydayPic-more-pic.png" width="104" height="30" alt="更多图片" data-bd-imgshare-binded="1"></a></li>
+               </ul>
+            </div>
+       </section>         
+      <section class="middlle-content">
+          <article class="left">
+            <div class="M-L-pic-And-article">
+            <!-----------------------------------------//show-content------------------------------------------------------------------->
+            <div class="show-content" style="width:602px">
+               <p class="Travel-place public-p" id="picinfo">夕阳石韵</p>
+               <p class="public-p">照片来源：<a href="http://www.nationalgeographic.com.cn" target="_blank" style="color:#AAA">网站投稿</a></p>
+               <div class="public-p  m-p M-L-article del-bottom"><p style="padding: 0px; margin: 0px; font-family: " microsoft="" yahei",="" arial,="" stheiti,="" sans-serif;="" font-size:="" 16px;="" font-style:="" normal;="" font-variant-ligatures:="" font-variant-caps:="" font-weight:="" letter-spacing:="" orphans:="" 2;="" text-align:="" start;="" text-indent:="" 0px;="" text-transform:="" none;="" white-space:="" widows:="" word-spacing:="" -webkit-text-stroke-width:="" background-color:="" rgb(255,="" 255,="" 255);="" text-decoration-style:="" initial;="" text-decoration-color:="" max-width:="" 100%;="" clear:="" both;="" min-height:="" 1em;="" color:="" rgb(62,="" 62,="" 62);="" box-sizing:="" border-box="" !important;="" word-wrap:="" break-word="" !important;"="">摄影师：宇飞</p>
+</div>
+           </div>
+           
+           <p class="M-L-pic-And-article-last-p public-p"></p>
+         <div class="border-bottom-line"></div>
+         <div class="share-site">
+                 <img src="/statics/images/dili/ContentPage-L-bt1.png" id="share-pic" alt="share-pic" data-bd-imgshare-binded="1">
+                 <ul>
+                 <li><a href="http://www.nationalgeographic.com.cn/index.php?m=content&amp;c=tag&amp;a=lists&amp;tag=%E5%A4%95%E9%98%B3" class="blue">夕阳</a> </li>	<li><a href="http://www.nationalgeographic.com.cn/index.php?m=content&amp;c=tag&amp;a=lists&amp;tag=%E7%9F%B3%E9%9F%B5" class="blue">石韵</a> </li>	                 </ul>
+                 <!-- JiaThis Button BEGIN -->
+				<div class="jiathis_style_24x24" style="float: right;padding-right: 21px;">
+				<img style="padding-right:4px" alt="sharebt" src="http://www.nationalgeographic.com.cn/statics/images/dili/ContentPage-L-share-bt.png" data-bd-imgshare-binded="1">
+					<a title="分享到微信" class="jiathis_button_weixin"><span class="jiathis_txt jtico jtico_weixin"></span></a>
+					<a title="分享到新浪微博" class="jiathis_button_tsina"><span class="jiathis_txt jtico jtico_tsina"></span></a>
+					<a title="分享到QQ空间" class="jiathis_button_qzone"><span class="jiathis_txt jtico jtico_qzone"></span></a>
+					<a title="分享到抽屉" class="jiathis_button_chouti"><span class="jiathis_txt jtico jtico_chouti"></span></a>
+					<a title="分享到花瓣" class="jiathis_button_huaban"><span class="jiathis_txt jtico jtico_huaban"></span></a>
+					<a title="复制" class="jiathis_button_copy"><span class="jiathis_txt jtico jtico_copy"></span></a>
+					<a title="打印" class="jiathis_button_print"><span class="jiathis_txt jtico jtico_print"></span></a>
+					<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+				</div>
+				<!-- JiaThis Button END -->
+         </div>
+         <style>
+			.comment_box{width:600px; background:#fff; padding:10px 0;}
+			.comment_top_btn{width:100%; height:38px; line-height:28px; border-bottom:1px solid #ccc;}
+			.comment_top_btn li{width:100px; height:28px; float:left; text-align:center; font-size:13px;}
+			.comment_top_btn li span{width:85px; height:28px; float:left; display:block; cursor:pointer; padding-left:20px; background:url(/statics/images/dili/comment_img/comment_icon_top.png) no-repeat 7px -66px; color:#999;}
+			.comment_top_btn li span.btn_r{ border-left:1px solid #ccc; background-position:-95px -66px; padding-left:15px;}
+			.comment_top_btn li.active span{background-position:7px 3px; color:#333;}
+			.comment_top_btn li.active span.btn_r{background-position:-95px 3px;}
+			.comment_list_main div.pl_list{height:0px; overflow:hidden;}
+			.comment_list_main div.active{height:auto;}
+			.comment-head{font-size:18px; margin:10px 0;}
+		 </style>
+		         <script>document.write(unescape('%3Cdiv id="hm_t_45133"%3E%3C/div%3E%3Cscript charset="utf-8" src="http://crs.baidu.com/t.js?siteId=f8f00157b9e7416724a33f0c8e9f6b9d&planId=45133&async=0&referer=') + encodeURIComponent(document.referrer) + '&title=' + encodeURIComponent(document.title) + '&rnd=' + (+new Date) + unescape('"%3E%3C/script%3E'));</script><div id="hm_t_45133"><div style="display: block; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; float: none; clear: none; overflow-x: hidden; overflow-y: hidden; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; background-image: none; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: initial; max-width: none; max-height: none; border-top-left-radius: 0px 0px; border-top-right-radius: 0px 0px; border-bottom-right-radius: 0px 0px; border-bottom-left-radius: 0px 0px; box-shadow: none; text-align: left; box-sizing: content-box; position: relative; width: 602px; height: 206px; background-position: initial initial; background-repeat: initial initial; "><iframe scrolling="no" frameborder="0" style="display: block; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; float: none; clear: none; overflow-x: hidden; overflow-y: hidden; position: relative; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; background-image: none; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: initial; max-width: none; max-height: none; border-top-left-radius: 0px 0px; border-top-right-radius: 0px 0px; border-bottom-right-radius: 0px 0px; border-bottom-left-radius: 0px 0px; box-shadow: none; text-align: left; box-sizing: content-box; width: 100%; height: 100%; "></iframe></div></div><script charset="utf-8" src="http://crs.baidu.com/t.js?siteId=f8f00157b9e7416724a33f0c8e9f6b9d&amp;planId=45133&amp;async=0&amp;referer=&amp;title=%E5%A4%95%E9%98%B3%E7%9F%B3%E9%9F%B5%20-%20%E6%91%84%E5%BD%B1%E5%A4%A7%E8%B5%9B2017%20-%20%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86%E4%B8%AD%E6%96%87%E7%BD%91&amp;rnd=1510294130940"></script>
+        <div id="commentBox" class="comment_box">
+            <ul id="commentBtn" class="comment_top_btn">
+            	<li class="active"><span class="btn_l">微博评论</span></li>
+                <li><span class="btn_r">网站评论</span></li>
+                
+            </ul>
+            <div class="comment-head">发表您的评论</div>
+            <div id="commentList" class="comment_list_main">
+                <div class="pl_list active">
+                    <wb:comments url="auto" width="600" skin="silver" appkey="3880298726" ralateuid="1644225642"><iframe id="WBCommentFrame" src="http://widget.weibo.com/distribution/comments.php?url=http%3A%2F%2Fwww.nationalgeographic.com.cn%2Findex.php%3Fm%3Dcontent%26c%3Dindex%26a%3Dshow%26catid%3D596%26id%3D4752&amp;border=1&amp;width=600&amp;skin=1&amp;ralateuid=1644225642&amp;brandline=n&amp;fontsize=14&amp;language=zh_cn&amp;appkey=3880298726" width="600" height="100%" frameborder="0" scrolling="no" marginheight="0"></iframe></wb:comments>
+                    <!--script type="text/javascript">
+                    (function(){
+                    var url = "http://widget.weibo.com/distribution/comments.php?width=0&url=http://www.nationalgeographic.com.cnhttp://www.nationalgeographic.com.cn/index.php?m=content&c=index&a=show&catid=596&id=4752&border=1&ralateuid=1644225642&appkey=3880298726&dpc=1";
+                    url = url.replace("url=auto", "url=" + encodeURIComponent(document.URL)); 
+                    document.write('<iframe id="WBCommentFrame" src="' + url + '" scrolling="no" frameborder="0" style="width:600px;"></iframe>');
+                    })();
+                    </script>
+                    <script src="http://tjs.sjs.sinajs.cn/open/widget/js/widget/comment.js" type="text/javascript" charset="utf-8"></script>
+                    <script type="text/javascript">
+                    window.WBComment.init({
+                        "id": "WBCommentFrame"
+                    });
+                    </script--> 
+                </div>
+                 <div class="pl_list">
+                                          <iframe src="http://www.nationalgeographic.com.cn/index.php?m=comment&amp;c=index&amp;a=init&amp;commentid=content_596-4752-1&amp;iframe=1" width="100%" id="comment_iframe" frameborder="0" scrolling="no" style="min-height:400px;" height="163"></iframe>             
+                                    </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+        (function(){
+            usTabSwitch && usTabSwitch('commentBox');
+        })();
+        function usTabSwitch(id){
+            var oTabBox=document.getElementById(id)||null;
+            if(oTabBox){
+                var aTabBtn=oTabBox.children[0].children;
+                var aTabDiv=oTabBox.children[2].children;
+				var oWeiboHeight=document.getElementById('tocomm');
+                for(var i=0; i<aTabBtn.length; i++){
+                    (function(index){
+                        aTabBtn[i].onclick=function(){
+                            fnTabClick(index,aTabBtn,aTabDiv);
+                        };
+                    })(i);
+                };	
+            };	
+        };
+        function fnTabClick(iNow,arrBtn,arrDiv){
+            for(var j=0; j<arrBtn.length; j++){
+                arrBtn[j].className='';
+                arrDiv[j].className='pl_list';
+            };
+            arrBtn[iNow].className='active';
+            arrDiv[iNow].className='pl_list active';
+        };
+        </script>
+   </div></article>
+  <aside class="right">
+     <div class="R-box-adver">
+       <!-----------广告位------------------->
+         <script language="javascript" src="http://www.nationalgeographic.com.cn/index.php?m=poster&amp;c=index&amp;a=show_poster&amp;id=14"></script>
+       <!-----------广告位------------------->
+       </div> 
+     <p class="obsever-pic"><span class="log-title"></span><span>浏览照片</span></p>
+    
+     <div class="obsever-pic-content-list">
+		  <dl class="F-dl">
+		              			<dd><a href="http://www.nationalgeographic.com.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=596&amp;id=4752">夕阳石韵</a></dd>
+						<dd><a href="http://www.nationalgeographic.com.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=596&amp;id=4666">北极家园</a></dd>
+						<dd><a href="http://www.nationalgeographic.com.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=596&amp;id=4665">追求</a></dd>
+						<dd><a href="http://www.nationalgeographic.com.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=596&amp;id=4664">抱团取暖</a></dd>
+						<dd><a href="http://www.nationalgeographic.com.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=596&amp;id=4663">君子好逑</a></dd>
+						<dd><a href="http://www.nationalgeographic.com.cn/index.php?m=content&amp;c=index&amp;a=show&amp;catid=596&amp;id=4662">新娘</a></dd>
+			          		  </dl>
+	
+     </div>
+     
+   <p class="obsever-pic"><span class="log-title"></span><span>特别优惠</span></p>
+      <p class="youhui-p">
+	   <!-----------广告位------------------->
+         <script language="javascript" src="http://www.nationalgeographic.com.cn/index.php?m=poster&amp;c=index&amp;a=show_poster&amp;id=10"></script>
+       <!-----------广告位------------------->
+	  </p>
+      <div class="R-box-adver">
+       <!-----------广告位------------------->
+         <script language="javascript" src="http://www.nationalgeographic.com.cn/index.php?m=poster&amp;c=index&amp;a=show_poster&amp;id=15"></script>
+       <!-----------广告位------------------->
+      </div> 
+      <script type="text/javascript">
+var cpro_id="u2232895";
+(window["cproStyleApi"] = window["cproStyleApi"] || {})[cpro_id]={at:"3",rsi0:"300",rsi1:"250",pat:"6",tn:"baiduCustNativeAD",rss1:"#FFFFFF",conBW:"1",adp:"1",ptt:"0",titFF:"%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91",titFS:"14",rss2:"#000000",titSU:"0",ptbg:"90",piw:"0",pih:"0",ptp:"0"}
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script><div id="BAIDU_SSP__wrapper_u2232895_0"><iframe id="iframeu2232895_0" name="iframeu2232895_0" src="http://pos.baidu.com/scgm?sz=300x250&amp;rdid=2232895&amp;dc=3&amp;di=u2232895&amp;dri=0&amp;dis=0&amp;dai=1&amp;ps=1389x676&amp;coa=at%3D3%26rsi0%3D300%26rsi1%3D250%26pat%3D6%26tn%3DbaiduCustNativeAD%26rss1%3D%2523FFFFFF%26conBW%3D1%26adp%3D1%26ptt%3D0%26titFF%3D%2525E5%2525BE%2525AE%2525E8%2525BD%2525AF%2525E9%25259B%252585%2525E9%2525BB%252591%26titFS%3D14%26rss2%3D%2523000000%26titSU%3D0%26ptbg%3D90%26piw%3D0%26pih%3D0%26ptp%3D0&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=HTML_POST&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1510294131161&amp;ti=%E5%A4%95%E9%98%B3%E7%9F%B3%E9%9F%B5%20-%20%E6%91%84%E5%BD%B1%E5%A4%A7%E8%B5%9B2017%20-%20%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86%E4%B8%AD%E6%96%87%E7%BD%91&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=400x300&amp;pss=1000x1794&amp;cfv=0&amp;cpl=0&amp;chi=1&amp;cce=true&amp;cec=UTF-8&amp;tlm=1510265331&amp;rw=320&amp;ltu=http%3A%2F%2Fwww.nationalgeographic.com.cn%2Findex.php%3Fm%3Dcontent%26c%3Dindex%26a%3Dshow%26catid%3D596%26id%3D4752&amp;ecd=1&amp;uc=1920x1040&amp;pis=-1x-1&amp;sr=1920x1080&amp;tcn=1510294131&amp;qn=17a88d7b176afa42&amp;tt=1510294131143.21.22.24" width="300" height="250" align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:300px;height:250px" allowtransparency="true"></iframe></div>
+  </aside>
+  </section>
+  <div class="bottom-Nav-div bottom-Nav_bg7">
+    	<img src="/statics/images/dili/bottom-cont2.png" alt="ngm" data-bd-imgshare-binded="1"><a href="/">国家地理中文网</a><span> &gt;&gt; </span><a href="/photography/">摄影</a> 
+    	<span> &gt;&gt; </span><a href="http://www.nationalgeographic.com.cn/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=596">自然类</a>
+  </div>
+  </article>
+ <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"image":{"viewList":["tsina","weixin","qzone","huaban","douban"],"viewText":"分享到：","viewSize":"16"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+ <script type="text/javascript">
+	var jiathis_config={
+	summary:"",
+	ralateuid:{
+	"tsina":"1644225642"
+	},
+	appkey:{
+	"tsina":"3880298726"
+	},
+	shortUrl:false,
+	hideMore:false
+	}
+</script>
+  <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script><script type="text/javascript" src="http://v3.jiathis.com/code/plugin.client.js" charset="utf-8"></script>
+  <script type="text/javascript" src="/statics/js/show_everydaypic.js"></script>
+  <script type="text/javascript" src="http://www.nationalgeographic.com.cn/api.php?op=count&amp;id=4752&amp;modelid=3"></script>
+   <footer class="foot">
+     <div class="foot-log"><img src="/statics/images/dili/footer-logo.png" alt="footerlogo" width="130" height="46" data-bd-imgshare-binded="1"></div>
+         <ul class="foot-ul">
+           <li><a href="http://www.nationalgeographic.com.cn/html/about_us/" target="_blank">关于我们</a></li>
+           <li><a href="http://www.nationalgeographic.com.cn/html/contact_us/" target="_blank">联系我们</a></li>
+           <li><a href="http://www.nationalgeographic.com.cn/NGM_China.pdf" target="_blank">刊例下载</a></li>
+           <li><a href="http://www.nationalgeographic.com.cn/subscribe/" target="_blank">杂志订阅</a></li>
+           <li><a href="http://www.nationalgeographic.com.cn/html/links/" target="_blank">合作网站</a></li>
+         </ul>
+     <p>2003-2017 国家地理中文网版权所有 <a href="http://www.nationalgeographic.com">NATIONAL GEOGRAPHIC</a> All Rights Reserved.</p>
+     <p class="last-p">京ICP备14040104号-1 京公网安备11010502015207</p>
+     <div class="weixin_ewm"><img src="/statics/images/dili/weixin_ewm.png" alt="weixin_ewm" class="JIATHIS_IMG_NO" data-bd-imgshare-binded="1"></div>
+   </footer>
+ </div>
+<script>
+	seajs.use('main_js.js', function (mod){
+		mod.sum();
+	});
+</script>
+<!--Baidu analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?f8f00157b9e7416724a33f0c8e9f6b9d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!--Baidu analytics end-->
+
+<div id="bdimgshare_1510294131415" class="sr-bdimgshare sr-bdimgshare-list sr-bdimgshare-16 sr-bdimgshare-black" style="height:36px;line-height:26px;font-size:12px;width:autopx;display:none;" data-bd-bind="1510294131415"><div class="bdimgshare-bg"></div><div class="bdimgshare-content bdsharebuttonbox bdshare-button-style0-16"><label class="bdimgshare-lbl">分享到：</label><a href="#" onclick="return false;" class="bds_tsina" data-cmd="tsina" hidefocus=""></a><a href="#" onclick="return false;" class="bds_weixin" data-cmd="weixin" hidefocus=""></a><a href="#" onclick="return false;" class="bds_qzone" data-cmd="qzone" hidefocus=""></a><a href="#" onclick="return false;" class="bds_huaban" data-cmd="huaban" hidefocus=""></a><a href="#" onclick="return false;" class="bds_douban" data-cmd="douban" hidefocus=""></a><a href="#" onclick="return false;" class="bds_more" data-cmd="more" hidefocus=""></a></div></div></body></html>
