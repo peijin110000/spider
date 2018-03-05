@@ -18,6 +18,8 @@ for gs in list:
 		lists.append(gs)
 
 x=1
+print(lists)
+
 for im in lists:
 
 	driver = webdriver.PhantomJS(executable_path='D:\python\phantomjs\phantomjs.exe')
